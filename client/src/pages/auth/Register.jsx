@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { registerUser } from "../../api/authApi";
+import { registerUser } from "../../api/authApi"; 
 import toast from "react-hot-toast";
 import { User, Mail, Lock, Phone, Truck } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
