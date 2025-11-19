@@ -9,7 +9,7 @@ if (base.toLowerCase().endsWith("/api")) {
 }
 
 const axiosInstance = axios.create({
-  baseURL: baseURL,
+  baseURL: base,   // ✅ fixed
   timeout: 10000,
 });
 
